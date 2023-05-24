@@ -15,10 +15,7 @@ const arryNewEl = [];
     arryNewEl.push(newEl)
    console.log(newEl);
   })
-
-arryNewEl.forEach( newEl => {
-  ul.append(newEl)
-});
+  ul.append(...newEl)
 
 
   
